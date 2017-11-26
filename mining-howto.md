@@ -98,8 +98,8 @@ https://github.com/sumoprojects/SumoEasyMiner
  * Click on "Add Pool" in the top right corner
  * At URL/Port enter the pool URL that you obtained in the "Choosing a pool section". E.g. pool.bla.com:4444.
  * Enter the wallet address
-  * To get this address: open you GUI wallet, click "Receive" in the top right and copy the "Address" value (which starts with Sumo.."
-  * This is where your hard earned Sumos will be sent to
+   * To get this address: open you GUI wallet
+   * In the wallet GUI click "Receive" in the top right and copy the "Address" value (which starts with Sumo.."
  * In the password entering "x" will work for most pools. The password of the pool can usually be found on the pool's getting started page.
  * Click OK and you're good to go.
  
