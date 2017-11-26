@@ -63,11 +63,11 @@ So you have now installed the wallet software and it's running. You still need t
  * You are prompted for a password: choose a secure one.
  * Choose you language
  * Write down the mnemonic seed.
- * I know you skipped that last point ;-) WRITE DOWN THE MNEMONIC SEED!
+ * WRITE DOWN THE MNEMONIC SEED!
  
  The mnemonic seed is a set of words that allows you to restore your wallet on any computer. You absolutely want to write down these words in a secure place (not the same computer as your wallet) so that you can regain access to your wallet in case your computer dies on you.
 
-Now click "Open wallet"
+ * Now click "Open wallet"
 
 #### Synchronizing to the network
 The wallet needs to synchronized to the network. This unfortunately might take several hours and once it is done; you will see "Network synchronized".
