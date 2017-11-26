@@ -29,6 +29,8 @@
 ## Step 1: Setting up your wallet
 
 ### Using the GUI wallet
+![A fresh sumo wallet]
+(https://github.com/SadBatman/sumokoin-stuff/blob/master/pics/sumo-wallet.png)
 
 #### Installation
 You can find the download link to the GUI wallet on the bottom of https://www.sumokoin.org.
