@@ -2,10 +2,28 @@
 
 # Sumokoin mining howto
 
- - [Step 1: Setting up your wallet](#setting-up-your-wallet)
- - [Step 2: Choosing a pool](#choosing-a-pool)
- - [Step 3: Setting up your mining software](#setting-up-your-mining-software)
- - [Step 4: Profit](#profit)
+- [Sumokoin mining howto](#sumokoin-mining-howto)
+  * [Step 1: Setting up your wallet](#step-1--setting-up-your-wallet)
+    + [Using the GUI wallet](#using-the-gui-wallet)
+      - [Installation](#installation)
+      - [Creating a Sumokoin wallet](#creating-a-sumokoin-wallet)
+      - [Synchronizing to the network](#synchronizing-to-the-network)
+  * [Step 2: Choosing a pool](#step-2--choosing-a-pool)
+    + [How to chose a pool](#how-to-chose-a-pool)
+      - [Location of the pool](#location-of-the-pool)
+      - [The pool fee](#the-pool-fee)
+      - [Miners and hashrate of the pool](#miners-and-hashrate-of-the-pool)
+    + [Getting the URL/port for miners](#getting-the-url-port-for-miners)
+  * [Step 3: Setting up your mining software](#step-3--setting-up-your-mining-software)
+    + [CPU: Using SumoEasyMiner](#cpu--using-sumoeasyminer)
+      - [Installation](#installation-1)
+      - [Starting to mine](#starting-to-mine)
+    + [GPU: Using xmr-stak](#gpu--using-xmr-stak)
+    + [GPU: Using ccminer](#gpu--using-ccminer)
+  * [Step 4: Profit](#step-4--profit)
+    + [Monitoring mining progress](#monitoring-mining-progress)
+    + [Receiving SUMOs](#receiving-sumos)
+  * [Support](#support)
 
 
 ## Step 1: Setting up your wallet
