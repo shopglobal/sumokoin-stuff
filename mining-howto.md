@@ -1,4 +1,12 @@
+
+
 # Sumokoin mining howto
+
+ - [Setting up your wallet](#setting-up-your-wallet)
+ - [Choosing a pool](#choosing-a-pool)
+ - [Setting up your mining software](#setting-up-your-mining-software)
+ - [Profit](#profit)
+
 
 ## Setting up your wallet
 
