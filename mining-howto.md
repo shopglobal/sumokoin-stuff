@@ -9,7 +9,7 @@
       - [Creating a Sumokoin wallet](#creating-a-sumokoin-wallet)
       - [Synchronizing to the network](#synchronizing-to-the-network)
   * [Step 2: Choosing a pool](#step-2--choosing-a-pool)
-    + [How to chose a pool](#how-to-chose-a-pool)
+    + [How to choose a pool](#how-to-choose-a-pool)
       - [Location of the pool](#location-of-the-pool)
       - [The pool fee](#the-pool-fee)
       - [Miners and hashrate of the pool](#miners-and-hashrate-of-the-pool)
@@ -29,8 +29,7 @@
 ## Step 1: Setting up your wallet
 
 ### Using the GUI wallet
-![A fresh sumo wallet]
-(https://github.com/SadBatman/sumokoin-stuff/blob/master/pics/sumo-wallet.png)
+![A fresh sumo wallet](/pics/sumo-wallet.png)
 
 #### Installation
 You can find the download link to the GUI wallet on the bottom of https://www.sumokoin.org.
@@ -61,7 +60,7 @@ cd Sumokoin_Wallet-Ubuntu16.04-x64/
 So you have now installed the wallet software and it's running. You still need to create an actual Sumokoin wallet on the network. This wallet will have a unique address to which sumo coins can be send.
 
  * In the "New Wallet" section click on "Create"
- * You are prompted for a password: chose a secure one.
+ * You are prompted for a password: choose a secure one.
  * Choose you language
  * Write down the mnemonic seed.
  * I know you skipped that last point ;-) WRITE DOWN THE MNEMONIC SEED!
@@ -80,14 +79,14 @@ Mining is typically done using pools that shard work to miners. The benefit of u
 
 You can find a list of pools on https://www.sumopools.com
 
-### How to chose a pool
+### How to pick a pool
 When choosing a pool you want to take into account the following factors:
  * Location of the pool
  * The pool fee
  * Miners and hashrate of the pool
  
 #### Location of the pool
-It's best to chose a pool that is located in your region to ensure you get a low latency connection with it.
+It's best to choose a pool that is located in your region to ensure you get a low latency connection with it.
 
 #### The pool fee
 Running a pool costs money and effort. Many pools therefore have a fee that is around 0.1 - 1 percent of the sumo that is awarded. This is completely reasonable and don't let the fee influence your decision too much when picking a pool (unless the fee is >1% perhaps).
