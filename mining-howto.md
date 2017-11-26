@@ -107,6 +107,9 @@ There are many different miner software packages out there. I'll cover a few and
 
 ### CPU: Using SumoEasyMiner
 
+![SumoEasyMiner](/pics/sumoeasyminer.png)
+
+
 #### Installation
 
 The installation is actually described here:
