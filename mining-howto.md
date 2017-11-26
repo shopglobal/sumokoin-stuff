@@ -1,4 +1,4 @@
-# Mining howto
+# Sumokoin mining howto
 
 ## Setting up your wallet
 
@@ -66,6 +66,8 @@ Running a pool costs money and effort. Many pools therefore have a fee that is a
 #### Miners and hashrate of the pool
 Pools that have several miners usually also have a decent hashrate. You can see the amount of miners and hashrate on the www.sumopools.com website.  When you visit the pool's website you can also see how often blocks are found: this directly translates to how often sumo is being payed out to miners.
 
+Note that pools with high numer of miners might get overloaded. This sometimes is the case with the official pool (pool.sumokoin.com) and mentioned on their pool site.
+
 ### Getting the URL/port for miners
 
 Pools have multiple ports to which miners can connect. Most pools run software called "cryptonote-sumokoin-pool" and have a dedicated "Getting started" page on which you can find the ports to which you can connect.
@@ -74,7 +76,6 @@ An example of such a page is here https://pool.sumokoin.ch/#getting_started and 
 
 ## Setting up your mining software
 There are many different miner software packages out there. I'll cover a few and will prefix them with CPU and GPU to indicate the type of mining they do.
-
 
 ### CPU: Using SumoEasyMiner
 
