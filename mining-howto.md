@@ -2,18 +2,19 @@
 
 # Sumokoin mining howto
 
- - [Setting up your wallet](#setting-up-your-wallet)
- - [Choosing a pool](#choosing-a-pool)
- - [Setting up your mining software](#setting-up-your-mining-software)
- - [Profit](#profit)
+ - [Step 1: Setting up your wallet](#setting-up-your-wallet)
+ - [Step 2: Choosing a pool](#choosing-a-pool)
+ - [Step 3: Setting up your mining software](#setting-up-your-mining-software)
+ - [Step 4: Profit](#profit)
 
 
-## Setting up your wallet
+## Step 1: Setting up your wallet
 
 ### Using the GUI wallet
 
 #### Installation
 You can find the download link to the GUI wallet on the bottom of https://www.sumokoin.org.
+
 Download the wallet and extract it's content:
 
 ```shell
@@ -54,7 +55,7 @@ The wallet needs to synchronized to the network. This unfortunately might take s
 
 This doesn't matter; while the wallet is synchronizing we can still move on to the next step, which is choosing a pool.
 
-## Choosing a pool
+## Step 2: Choosing a pool
 Mining is typically done using pools that shard work to miners. The benefit of using a shared pool is that you will have faster results, as in, payouts. 
 
 You can find a list of pools on https://www.sumopools.com
@@ -82,7 +83,7 @@ Pools have multiple ports to which miners can connect. Most pools run software c
 
 An example of such a page is here https://pool.sumokoin.ch/#getting_started and from that page you'd learn that the miners can connect to pool.sumokoin.ch:4444, pool.sumokoin.ch:4445 and pool.sumokoin.ch:4446.
 
-## Setting up your mining software
+## Step 3: Setting up your mining software
 There are many different miner software packages out there. I'll cover a few and will prefix them with CPU and GPU to indicate the type of mining they do.
 
 ### CPU: Using SumoEasyMiner
@@ -109,7 +110,7 @@ https://github.com/sumoprojects/SumoEasyMiner
 ### GPU: Using ccminer
 // TODO
 
-## Profit
+## Step 4: Profit
 
 ### Monitoring mining progress
 // TODO
