@@ -126,7 +126,93 @@ https://github.com/sumoprojects/SumoEasyMiner
  * In the password entering "x" will work for most pools. The password of the pool can usually be found on the pool's getting started page.
  * Click OK and you're good to go.
  
-### GPU: Using xmr-stak
+### GPU: Using xmr-stak for NVIDIA
+
+#### Installation
+
+Follow the below example to install the required packages, fetch and configure the code:
+```shell
+sudo apt-get install cmake gcc g++-5 libcuda1-352 nvidia-cuda-dev nvidia-cuda-toolkit libssl-dev libhwloc-dev
+git clone https://github.com/fireice-uk/xmr-stak.git
+cmake . -DMICROHTTPD_ENABLE=OFF
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Set miner currency to 'monero' and 'aeon'
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found CUDA: /usr (found suitable version "7.5", minimum required is "7.5") 
+-- Looking for CL_VERSION_2_0
+-- Looking for CL_VERSION_2_0 - found
+-- Found OpenCL: /usr/lib/x86_64-linux-gnu/libOpenCL.so (found version "2.0") 
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.0.2g") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xxx/xmr-stak
+
+make
+```
+
+Now build the code:
+
+```shell
+make
+Scanning dependencies of target xmr-stak-c
+[  2%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o
+[  5%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o
+[  8%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o
+[ 11%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o
+....
+....
+```
+
+#### Running it
+
+If your system did not have nvidia drivers before building xmr-stak; go and reboot now.
+Now simply run the binary and answer the questions:
+
+```shell
+./bin/xmr-stak 
+Please enter:
+- Currency: 'monero' or 'aeon'
+monero
+- Pool address: e.g. pool.usxmrpool.com:3333
+pool.sumokoin.ch:4445
+- Username (wallet address or pool login):
+Sumoo183tSKPM45fr58fVyK3SCgHCDhHMFgc8MNMM7uxH5vjyyu9zs8dCsfRysapCSVzjfBZgRAUfRe7GGmoQEbZJenUUXWrQrq
+- Password (mostly empty or x):
+x
+- Does this pool port support TLS/SSL? Use no if unknown. (y/N)
+n
+- Do you want to use nicehash on this pool? (y/n)
+n
+- Do you want to use multiple pools? (y/n)
+n
+Configuration stored in file..
+.....
+.....
+```
+
+And you're good to go !
+
 // TODO
 
 ### GPU: Using ccminer
